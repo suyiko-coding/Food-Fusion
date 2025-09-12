@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-<main class="container py-5">
+<main class="py-5">
   <h2>Cookie Policy</h2>
   <p>This website uses cookies to ensure you get the best experience. Cookies are small text files stored on your browser.</p>
   <ul>

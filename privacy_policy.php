@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-<main class="container py-5">
+<main class="py-5">
   <h2>Privacy Policy</h2>
   <p>At FoodFusion, we respect your privacy. This policy outlines how we collect, use, and protect your personal information.</p>
   <ul>

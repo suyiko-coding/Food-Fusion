@@ -2,7 +2,7 @@
 
 <?php include("includes/header.php"); ?>
 
-<main class="container mt-5">
+<main class="mt-5">
 
     <!-- About Us Heading -->
     <section class="text-center mb-5">

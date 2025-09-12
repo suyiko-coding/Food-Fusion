@@ -23,7 +23,7 @@ while ($row = $result->fetch_assoc()) {
 }
 ?>
 
-<main class="container mt-5">
+<main class="mt-5">
   <section class="text-center mb-4">
     <h1 class="display-6">Community Cookbook</h1>
     <p class="lead">Discover what our FoodFusion community is cooking and sharing from around the world!</p>

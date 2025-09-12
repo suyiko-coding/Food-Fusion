@@ -291,6 +291,16 @@ main {
     min-height: calc(100vh - (76.78px + 162px)) !important;
 }
 
+#community .card-body {
+    height: 200px;
+    overflow: hidden;
+}
+
+#community img {
+    height: 200px;
+    object-fit: cover;
+}
+
 @media (width <= 991px) {
     main {
         margin: 10px 10px;

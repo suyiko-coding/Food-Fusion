@@ -25,15 +25,15 @@ while ($row = $result->fetch_assoc()) {
 
 <main class="mt-5">
   <section class="text-center mb-4">
-    <h1 class="display-6">Community Cookbook</h1>
+    <h2 class="text-center mb-4">Community Cookbook</h2>
     <p class="lead">Discover what our FoodFusion community is cooking and sharing from around the world!</p>
   </section>
 
   <div class="row" id="community">
     <?php foreach($recipes as $recipe): ?>
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-4 col-sm-6 col-lg-3 mb-4">
         <a href="detail.php?id=<?php echo $recipe['id'] ?>" class="text-decoration-none text-dark">
-          <div class="card h-100 shadow-sm recipe-card">
+          <div class="card shadow-sm recipe-card">
             <?php if (!empty($recipe['image'])): ?>
               <img src="uploads/<?php echo htmlspecialchars($recipe['image']) ?>" class="card-img-top" alt="<?php echo htmlspecialchars($recipe['title']) ?>">
             <?php else: ?>

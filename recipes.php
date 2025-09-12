@@ -6,7 +6,7 @@ if (!isset($currentPage)) {
 <?php include('includes/header.php'); ?>
 <?php include('includes/db.php'); ?>
 
-<main class="container py-5">
+<main class="py-5">
   <h2 class="text-center mb-4">Recipe Collection</h2>
 
   <!-- Filter Section -->

@@ -1,4 +1,4 @@
-<footer class="footer-sunset text-center py-4">
+<footer class="footer-ff text-center py-4">
   <p>&copy; 2025 FoodFusion. All rights reserved.</p>
 
   <!-- Policy Links -->

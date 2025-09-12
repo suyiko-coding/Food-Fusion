@@ -3,7 +3,7 @@ $currentPage = 'index';
 include("includes/header.php");
 ?>
 
-<main class="container mt-5">
+<main class="mt-5">
     <?php if (!empty($_SESSION['message'])): ?>
         <div class="alert alert-success text-center">
             <?= htmlspecialchars($_SESSION['message']); ?>
@@ -22,7 +22,7 @@ include("includes/header.php");
 
     <!-- Join Us Modal Trigger -->
     <div class="text-center mb-5">
-        <button class="btn btn-sunset" data-bs-toggle="modal" data-bs-target="#joinModal">
+        <button id="join-us" class="btn btn-ff" data-bs-toggle="modal" data-bs-target="#joinModal">
             Join Us
         </button>
     </div>

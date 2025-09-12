@@ -30,6 +30,11 @@ function getUserData() {
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -38,11 +43,9 @@ function getUserData() {
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
   <div class="container">
-    <a class="navbar-brand brand-sunset" href="index.php">
-    <img src="assets/images/favicon.png"
-         style="height: 40px; width: auto; margin-right: 8px;">
-    FoodFusion
-</a>
+    <a class="navbar-brand brand-ff" href="index.php">
+      FoodFusion
+    </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

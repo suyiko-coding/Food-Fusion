@@ -1,0 +1,305 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* Root variables for sunset theme */
+:root {
+    --sunset-bg: #fff1e6;
+    --sunset-brand: #ff9472;
+    --sunset-link: #f88670;
+    --sunset-hover: #e46464;
+    --sunset-shadow: rgba(0, 0, 0, 0.05);
+    --sunset-font: 'Nunito', sans-serif;
+}
+
+/* Global styles */
+body {
+    font-family: var(--sunset-font);
+    background-color: #acb0ac;
+    margin: 0;
+    padding: 0;
+}
+
+.text-sunset {
+    color: var(--sunset-link) !important;
+}
+
+.bg-sunset {
+    background-color: var(--sunset-bg) !important;
+}
+
+.border-sunset {
+    border-color: var(--sunset-link) !important;
+}
+
+.shadow-sunset {
+    /* subtle shadow using sunset color */
+    box-shadow: 0 4px 8px rgba(248, 134, 112, 0.3) !important;
+}
+
+.text-sunset-hover:hover {
+    color: var(--sunset-hover) !important;
+}
+
+.bg-sunset-hover:hover {
+    background-color: var(--sunset-hover) !important;
+}
+
+.border-sunset-hover:hover {
+    border-color: var(--sunset-hover) !important;
+}
+
+.shadow-sunset-hover:hover {
+    box-shadow: 0 6px 12px rgba(228, 100, 100, 0.4) !important;
+}
+
+.text-sunset-hover:hover {
+    color: var(--sunset-hover) !important;
+}
+
+.bg-sunset-hover:hover {
+    background-color: var(--sunset-hover) !important;
+}
+
+.border-sunset-hover:hover {
+    border-color: var(--sunset-hover) !important;
+}
+
+.shadow-sunset-hover:hover {
+    box-shadow: 0 6px 12px rgba(228, 100, 100, 0.4) !important;
+}
+
+.btn-sunset {
+    background: linear-gradient(45deg, #ff7e5f, #d64161);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(214, 65, 97, 0.4);
+}
+
+.btn-sunset:hover,
+.btn-sunset:focus {
+    background: linear-gradient(45deg, #d64161, #ff7e5f);
+    color: #332424;
+    box-shadow: 0 6px 12px rgba(214, 65, 97, 0.6);
+    outline: none;
+}
+
+.ff-btn {
+    background-color: #ff7e5f; /* Sunset base color */
+    border: none;
+    color: #36c809;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(214, 65, 97, 0.4);
+}
+
+.ff-btn:hover,
+.ff-btn:focus {
+    background-color: var(--sunset-hover); /* Darker sunset on hover */
+    box-shadow: 0 4px 10px rgba(214, 65, 97, 0.6);
+    outline: none;
+}
+
+/* ---------------------- */
+/*        NAVBAR         */
+/* ---------------------- */
+
+.navbar.custom-navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 6px var(--sunset-shadow);
+}
+
+/* Brand style */
+.navbar .navbar-brand.brand-sunset {
+    color: var(--sunset-brand) !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand.brand-sunset:hover {
+    color: var(--sunset-hover) !important;
+}
+
+/* Nav links */
+.navbar .nav-link.custom-link {
+    color: var(--sunset-link) !important;
+    font-weight: 600;
+    margin-left: 1rem;
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.navbar .nav-link.custom-link:hover {
+    color: var(--sunset-hover) !important;
+    font-weight: 700;
+}
+
+.navbar .nav-link.custom-link.active {
+    color: var(--sunset-hover) !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid var(--sunset-hover);
+}
+
+/* Unique style for Login link */
+.nav-link-login {
+    background: linear-gradient(45deg, #ff7e5f, #d64161);
+    color: white !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(214, 65, 97, 0.4);
+    transition: background 0.4s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin-left: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nav-link-login:hover,
+.nav-link-login:focus {
+    background: linear-gradient(45deg, #d64161, #ff7e5f);
+    box-shadow: 0 8px 15px rgba(214, 65, 97, 0.6);
+    transform: translateY(-3px);
+    color: white !important;
+    text-decoration: none;
+}
+
+/* User icon in nav */
+.navbar .nav-link.custom-link .fa-user {
+    color: var(--sunset-link);
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link.custom-link:hover .fa-user {
+    color: var(--sunset-hover);
+}
+
+/* ---------------------- */
+/*        FOOTER         */
+/* ---------------------- */
+
+.footer-sunset {
+    background-color: var(--sunset-bg);
+    color: #444;
+    font-family: var(--sunset-font);
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Footer links */
+.footer-link {
+    color: var(--sunset-link);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--sunset-hover);
+}
+
+/* Social media icons */
+.footer-icons .social-icon {
+    margin: 0 10px;
+    color: var(--sunset-link);
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.footer-icons .social-icon:hover {
+    color: var(--sunset-hover);
+    transform: scale(1.2);
+}
+
+/* Resources style */
+
+.resources-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+.resource-item {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.resource-item.active {
+    display: block;
+}
+
+.resource-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.resource-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.download-btn {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #f04f4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #c03f3f;
+}
+
+/* Mission Statement */
+.mission {
+    height: 400px;
+    background-image: url('../images/mission.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ff5c00;
+    font-size: 16px;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mission p {
+    max-width: 450px;
+}
+
+/* Carousel */
+
+#eventsCarousel {
+    margin: 0 auto;
+}
+
+#eventsCarousel img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}

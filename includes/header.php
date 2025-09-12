@@ -44,10 +44,8 @@ function getUserData() {
 <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
   <div class="container">
     <a class="navbar-brand brand-ff" href="index.php">
-    <img src="assets/images/favicon.png"
-         style="height: 40px; width: auto; margin-right: 8px;">
-    FoodFusion
-</a>
+      FoodFusion
+    </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         const joinModal = new bootstrap.Modal(document.getElementById('joinModal'));
         joinModal.show();
-    }, 2000);
+    }, 1500);
 });
 </script>
 

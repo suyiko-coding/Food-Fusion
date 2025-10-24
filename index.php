@@ -201,6 +201,13 @@ document.querySelector('#registerForm').addEventListener('submit', async functio
       errorBox.classList.remove('d-none');
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        const joinModal = new bootstrap.Modal(document.getElementById('joinModal'));
+        joinModal.show();
+    }, 2000);
+});
 </script>
 
 <?php include("includes/footer.php"); ?>

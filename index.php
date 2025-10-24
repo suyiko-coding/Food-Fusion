@@ -20,12 +20,14 @@ include("includes/header.php");
         </p>
     </section>
 
+    <?php if (!isLoggedIn()): ?>
     <!-- Join Us Modal Trigger -->
     <div class="text-center mb-5">
         <button id="join-us" class="btn btn-ff" data-bs-toggle="modal" data-bs-target="#joinModal">
             Join Us
         </button>
     </div>
+    <?php endif; ?>
 
     <!-- Join Us Modal -->
     <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
@@ -202,12 +204,14 @@ document.querySelector('#registerForm').addEventListener('submit', async functio
     }
 });
 
+<?php if (!isLoggedIn()): ?>
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         const joinModal = new bootstrap.Modal(document.getElementById('joinModal'));
         joinModal.show();
     }, 1500);
 });
+<?php endif; ?>
 </script>
 
 <?php include("includes/footer.php"); ?>
